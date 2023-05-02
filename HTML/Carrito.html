@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CIPRIANA PASTELERIA</title>
+    <link rel="icon" href="../image/logo1.ico">
+    <meta name="keywords" content="comida, pasteleria, cocina, dulce, harina">
+    <meta name="description" content="">
+    <meta name="author" content="Julieta Antunez">
+    <meta name="copyright" content="Cipriana Pastelería">
+    <meta name="robots" content="index">
+    <meta name="viewport" content="widht=device=width, initial=scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../CSS/carrito.css">
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <script src="https://kit.fontawesome.com/4eaf5ae8f2.js" crossorigin="anonymous"></script> 
+
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- Inicio del menu -->
+    <header>
+        <img class="logo" src="../image/logo2.jpeg" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="SobreNosotros.html">Quiénes somos</a></li>
+                <li><a href="Menu.html">Menú</a></li>
+                <li><a href="Carrito.html">Carrito</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <!-- TITULO -->
+    <div class="carrito-central">
+        <h3>CARRITO <span class="numerito"> 0</span> </h3>
+    </div>
+
+    <!-- CARRITO -->
+    <div class="contenedor-principal">
+        <p class="carrito-vacio">Tu carrito está vacio <i class="bi bi-emoji-frown"></i> </p>
+       
+        <div class="carritos-productos disambled">
+            
+            <div class="carrito-producto">
+                <img class="carrito-producto-imagen" src="../image/brownie-clasico.jpg" alt="">
+                <div class="carrito-producto-titulo">
+                    <small>Título</small>
+                    <h3>Brownie clásico</h3>
+                </div>
+                <div class="carrito-producto-cantidad">
+                    <small>Cantidad</small>
+                    <p>1</p>
+                </div>
+                <div class="carrito-producto-precio">
+                    <small>Precio</small>
+                    <p>$xxx</p>
+                </div>
+                <div class="producto-producto-total">
+                    <small>Subtotal</small>
+                    <p>$xxx</p>
+                </div>
+                <button class="carrito-producto-eliminar"> <i class="bi bi-trash3"></i> </button>
+            </div>
+            <div class="carrito-producto">
+                <img class="carrito-producto-imagen" src="../image/lemon-pie.jpg" alt="">
+                <div class="carrito-producto-titulo">
+                    <small>Título</small>
+                    <h3>Lemon pie</h3>
+                </div>
+                <div class="carrito-producto-cantidad">
+                    <small>Cantidad</small>
+                    <p>2</p>
+                </div>
+                <div class="carrito-producto-precio">
+                    <small>Precio</small>
+                    <p>$xxx</p>
+                </div>
+                <div class="producto-producto-total">
+                    <small>Subtotal</small>
+                    <p>$xxx</p>
+                </div>
+                <button class="carrito-producto-eliminar"> <i class="bi bi-trash3"></i> </button>
+            </div>
+
+        </div>
+
+        <div class="carrito-acciones disambled">
+            <div class="carrito-acciones-izquierda">
+                <button class="carrito-acciones-vaciar">Vaciar carrito</button>
+            </div>
+            <div class="carrito-acciones-derecha">
+                <div class="carrito-acciones-total">
+                    <p>Total</p>
+                    <pi id="total">$2000</pi>
+                </div>
+                <input class="carrito-acciones-comprar" type="submit" value="Comprar ahora">
+            </div>
+        </div>
+
+        <p class="carrito-comprado disambled">Muchas gracias por tu compra <i class="bi bi-emoji-laughing"></i> </p>
+
+    </div>
+
+
+    
+    <div class="centrarboton">
+        <a href="https://api.whatsapp.com/send?phone=5492302660197"> <input class="boton" type="submit" value="Pedir por Whatsapp"> </a>
+    </div>
+
+
+  <!-- PIE DE PAGINA  -->
+  <div class="piedepagina">
+    <footer>
+        <h1><img class="imagendepie" src="../image/logo.jpeg" alt="LogoPieDePagina"></h1>
+        <p class="copyright">&copy Cipriana Pasteleria</p>
+    </footer>
+  </div>
+
+   <!-- BOOSTRAP -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+   <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+  <!-- BOTON FLOTANTE -->
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=5492302660197" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+
+    <!-- BOOSTRAP -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <script src="../JS/index.js"></script>
+
+</body>
+</html>

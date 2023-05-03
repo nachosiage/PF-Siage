@@ -137,11 +137,6 @@ header {
 
 @media screen and (max-width: 1300px) {
 
-  body {
-    position: relative;
-    padding-bottom: 200px;
-    min-height: 100vh;
-  }
    /* HEADER */
 header {
   height: 400px;

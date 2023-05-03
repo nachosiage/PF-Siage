@@ -55,6 +55,7 @@ header {
 .contacto {
   text-align: center;
   margin-top: 30px;
+  font-family: "Roboto";
 }
 
 .horario {
@@ -62,7 +63,7 @@ header {
   justify-content: center;
 }
 .horario h4 {
-  font-size: 16px;
+  font-size:28px;
 }
 
 .localidad {
@@ -72,7 +73,7 @@ header {
   padding-left: 5%;
 }
 .localidad h4 {
-  font-size: 15px;
+  font-size: 28px;
   margin: 5px 5px;
 }
 
@@ -84,21 +85,21 @@ header {
 
 .direccion {
   margin-top: 30px;
-  font-size: 15px;
+  font-size:28px;
   padding-left: 5%;
   display: flex;
   justify-content: center;
   margin: 30px 10px;
 }
 .direccion h4 {
-  font-size: 15px;
+  font-size: 28px;
   margin: 5px 5px;
 }
 
 .mapa {
   width: 90%;
   margin: 20px 0 0 70px;
-  border: 1px solid black;
+  border-color: 1px solid black;
 }
 
 .redes-sociales {
@@ -261,47 +262,25 @@ header {
     font-size: 100px;
     font-family: "Roboto";
   }
-  .horario {
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
-  }
-  .horario h4 {
+
+  .horarios-atencion {
+    flex-direction: column;
+    text-align: center;
     font-size: 40px;
   }
-  .localidad {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    padding-left: 5%;
-  }
-  .localidad h4 {
-    font-size: 40px;
-    margin: 5px 5px;
-  }
+
   .horario-atencion,
   .direccion-direccion,
   .direccion-localidad {
     text-decoration: underline;
   }
-  .direccion {
-    margin-top: 30px;
-    font-size: 40px;
-    padding-left: 5%;
-    display: flex;
-    justify-content: center;
-    margin: 30px 10px;
-  }
-  .direccion h4 {
-    font-size: 40px;
-    margin: 5px 5px;
-  }
+
   .mapa {
     width: 90%;
     margin-left: 40px;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border-color: 1px solid black;
   }
   .redes-sociales .redes {
     padding-left: 5%;
